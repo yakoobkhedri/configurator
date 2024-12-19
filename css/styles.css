@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* bootstrap config */
+.accordion-button,
+.accordion-item,
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.accordion-button {
+    color: #ccc;
+    padding: 1rem 0;
+}
+
+.accordion-button::after {
+    background-image: url('../images/icon/arrow.png') !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ccc;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #801212;
+}
+
+.accordion-body {
+    padding: 10px 1.25rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+}
+
+/* width */
+.w-40 {
+    width: 40px;
+}
+
+/* height */
+.h-40 {
+    height: 40px;
+}
+
+/* border-radius */
+.rounded-8 {
+    border-radius: 8px;
+}
+
+/* cursor */
+.cursor {
+    cursor: pointer;
+}
+
+/* 3d rotator */
+
+.Magic360-container.desktop {
+    max-width: 512px !important;
+}

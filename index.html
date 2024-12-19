@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>configurator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/jquery.product-configurator.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="css/magic360.css" type="text/css">
+</head>
+
+<body>
+
+	<div class="configurator">
+		<div class="mobile-config-button">
+			<div class="hamburg"><span class="line"></span><span class="line"></span><span class="line"></span></div>
+		</div>
+		<div class="preview">
+			<!-- <div class="preview-image"><img src="images/thumbnail-case.png" class="preview-case"></div> -->
+			<div class="d-flex align-items-center justify-content-center h-100">
+				<a class="Magic360" data-options="rows: 4; columns: 12"
+					href="images/products/armani-bag/armani-bag-large-01-01.jpg"
+				><img src="images/products/armani-bag/armani-bag-large-01-01.jpg"></a>
+			</div>
+		</div>
+		<div class="settings pt-0">
+			<div class="name pb-2 pt-4">
+				<div class="back width-as-height" data-submenu="none"><i class="icon ion-ios-arrow-back"></i></div>
+				Configure Now
+			</div>
+			<div class="categories mt-3" style="height: 662px;">
+				<div class="main-category">
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+									data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Product Color
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample">
+								<div class="accordion-body d-flex align-items-center gap-2 flex-wrap px-0">
+							      <div class="rounded-8 w-40 h-40 cursor" style="background-color:black;"></div>
+							      <div class="rounded-8 w-40 h-40 cursor" style="background-color:rgb(28, 58, 28);"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/magic360.js"></script>
+</body>
+
+</html>
